@@ -4,4 +4,4 @@ services:
       - /root/runtipi/apps/user-config/paperless-ngx/bin/decrypt-pdf:/usr/local/bin/scripts/decrypt-pdf:ro
     environment:
       - PAPERLESS_PRE_CONSUME_SCRIPT=/usr/local/bin/scripts/decrypt-pdf
-      - PAPERLESS_DECRYPT_PASSWORD=="some other password"
+      - PAPERLESS_DECRYPT_PASSWORD
